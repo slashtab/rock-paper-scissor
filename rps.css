@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+.heading {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    color: white;
+}
+
+img {
+    border-radius: 90%;
+    width: 120px;
+    height: auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-down {
+    display: flex;
+    gap : 50px;
+    margin-top: 7%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cscore, .score {
+    margin-top: 0;
+    font-size: 2900%;
+}
+
+.score {
+    padding-left: 15%;
+}
+
+.Cscore {
+    padding-right: 15%;
+}
+
+.message {
+    text-align: center;
+    margin-top: 7%;
+    font-size: 75px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+}
+
+.center-top {
+    margin-top: 8%;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 100;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-content: center;
+}
